@@ -14,3 +14,40 @@ floor Division: 3
 Is x equal to y? False
 Is student and x>y? True
 Converted string to int: 10
+
+
+## Topics Covered
+-if
+-elif
+-else
+-comparison operators
+-for loop
+-while loop
+-break
+-continue
+-pass
+
+
+## Sample outputs
+
+Prime numbers from 1 to 100:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+
+Even/Odd check for the list: [1, 5, 8, 12, 15, 20]
+1 is odd
+5 is odd
+8 is even
+12 is even
+15 is odd
+20 is even
+
+
+Simple Calculator
+Enter first number: 6
+Enter second number: 8
+Choose operation (+, -, *, /): +
+Result: 14.0
+
+
+Enter your marks: 79
+Your grade is: C

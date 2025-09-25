@@ -1,7 +1,7 @@
 # python_fundamentals
 
-
-## Topics Covered
+# 1
+## Topics Covered 
 - Variables and Constants
 - Data Types: int, float, str, bool
 - Arithmetic, Comparison, Logical, Assignment Operators
@@ -15,7 +15,7 @@ Is x equal to y? False
 Is student and x>y? True
 Converted string to int: 10
 
-
+# 2
 ## Topics Covered
 -if
 -elif
@@ -54,7 +54,7 @@ Your grade is: C
 
 
 
-
+# 3
 ## Topics Covered
 Defining functions, parameters, return values, modules, reusable code
 
@@ -75,3 +75,45 @@ Factorial of 5: 120
 
 
 Area of rectangle 5x3: 15
+
+
+# 4
+## Topics Covered
+Python data structures
+ Lists, Tuples, Dictionaries
+
+ ## Sample outputs
+
+ ### Lists ###
+Original list: ['apple', 'banana', 'cherry']
+First fruit: apple
+After append: ['apple', 'banana', 'cherry', 'orange']  
+After remove: ['apple', 'cherry', 'orange']
+apple
+cherry
+orange
+Squared numbers: [1, 4, 9, 16, 25]
+
+
+### Tuples ###
+Coordinates tuple: (10, 20)
+X coordinate: 10
+Unpacked: 10 20
+
+
+### Dictionaries ###
+Student dictionary: {'name': 'Aravind', 'age': 24, 'grade': 'A'}
+Name: Aravind
+Updated age: 25
+Added city: {'name': 'Aravind', 'age': 25, 'grade': 'A', 'city': 'Coventry'}
+name: Aravind
+age: 25
+grade: A
+city: Coventry
+Nested dictionary: {'s1': {'name': 'Aravind', 'grade': 'A'}, 's2': {'name': 'Rahul', 'grade': 'B'}}
+Grade of s2: B
+
+
+Even numbers: [2, 4, 6]
+Swapped values: 10 5
+Average grade: 90.0

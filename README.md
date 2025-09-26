@@ -117,3 +117,30 @@ Grade of s2: B
 Even numbers: [2, 4, 6]
 Swapped values: 10 5
 Average grade: 90.0
+
+
+# 5
+## Topics Covered
+Read/Write files, CSV, JSON, context manager
+
+## Sample outputs
+
+### Text File Handling ###
+Text file content:
+ Hello, Aravind!
+This is Python file handling practice.
+
+### CSV File Handling ###
+['Name', 'Age', 'Grade']
+['Aravind', '24', 'A']
+['Rahul', '22', 'B']
+
+### JSON File Handling ###
+JSON content: {'students': [{'name': 'Aravind', 'age': 24, 'grade': 'A'}, {'name': 'Rahul', 'age': 22, 'grade': 'B'}]}
+
+
+Number of lines in example.txt: 2
+
+Names from CSV: ['Aravind', 'Rahul']
+
+Updated JSON content: {'students': [{'name': 'Aravind', 'age': 24, 'grade': 'A'}, {'name': 'Rahul', 'age': 22, 'grade': 'B'}, {'name': 'Priya', 'age': 23, 'grade': 'A'}]}

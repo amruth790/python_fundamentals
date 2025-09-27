@@ -144,3 +144,39 @@ Number of lines in example.txt: 2
 Names from CSV: ['Aravind', 'Rahul']
 
 Updated JSON content: {'students': [{'name': 'Aravind', 'age': 24, 'grade': 'A'}, {'name': 'Rahul', 'age': 22, 'grade': 'B'}, {'name': 'Priya', 'age': 23, 'grade': 'A'}]}
+
+
+
+# 6
+## Topics Covered 
+Exception handling, logging, robust Python code
+
+ ## Sample outputs
+
+ ### Basic try-except ###
+Enter a number: 23
+You entered: 23
+
+
+### Multiple Except Blocks ###
+Enter numerator: 5
+Enter denominator: 6
+Result: 0.8333333333333334
+
+
+### Finally Example ###
+Hello, Aravind!
+This is Python file handling practice.
+
+This runs regardless of exception.
+
+
+### Logging Example ###
+Enter a number to divide 100 by: 500
+Result: 0.2
+Logging example complete.
+
+
+### Mini ETL Simulation ###
+Skipping invalid data: abc
+Cleaned Data: [10, 20, 30]

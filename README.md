@@ -180,3 +180,74 @@ Logging example complete.
 ### Mini ETL Simulation ###
 Skipping invalid data: abc
 Cleaned Data: [10, 20, 30]
+
+
+
+
+# 7
+## Topics Covered 
+ NumPy arrays, indexing, slicing, reshaping, operations
+
+ ## Sample outputs
+
+1D array: [1 2 3 4 5]
+
+2D array:
+ [[1 2 3]
+ [4 5 6]]
+ 
+Zeros array:
+ [[0. 0. 0.]
+ [0. 0. 0.]]
+ 
+Ones array:
+ [[1. 1.]
+ [1. 1.]
+ [1. 1.]]
+ 
+Array with range 0-9: [0 1 2 3 4 5 6 7 8 9]
+
+Original 1D array: [1 2 3 4 5]
+First element: 1
+Last element: 5
+Slice 1-3: [2 3 4]
+
+Original 2D array:
+ [[1 2 3]
+ [4 5 6]]
+ 
+Element at row 0, col 1: 2
+First row: [1 2 3]
+First column: [1 4]
+Addition: [5 7 9]
+Multiplication: [ 4 10 18]
+
+Sum of arr_a: 6
+
+Mean of arr_b: 5.0
+
+Original array: [ 1  2  3  4  5  6  7  8  9 10 11 12]
+
+Reshaped to 3x4:
+ [[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+ 
+Flattened array: [ 1  2  3  4  5  6  7  8  9 10 11 12]
+
+Transposed array:
+ [[ 1  5  9]
+ [ 2  6 10]
+ [ 3  7 11]
+ [ 4  8 12]]
+ 
+Random 5x5 array:
+ [[ 2  8  4 10 10]
+ [ 9  0  3  7  1]
+ [ 3  0 10  3 10]
+ [10  4 10  5  3]
+ [ 0  5  2  9  1]]
+ 
+Sum of each row: [34 20 26 32 17]
+
+Max value in array: 10

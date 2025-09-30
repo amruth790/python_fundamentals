@@ -266,6 +266,8 @@ Series:
 3    40
 4    50
 dtype: int64
+
+
 Series with custom index:
  a    10
 b    20
@@ -283,33 +285,45 @@ DataFrame:
 0  Aravind   24     A
 1    Rahul   22     B
 2    Priya   23     A
+
+
 Names column:
  0    Aravind
 1      Rahul
 2      Priya
 Name: Name, dtype: object
+
 First row:
  Name     Aravind
 Age           24
 Grade          A
 Name: 0, dtype: object
+
+
 ### Load CSV ###
 CSV loaded DataFrame:
        Name  Age Grade
 0  Aravind   24     A
 1    Rahul   22     B
 2    Priya   23     A
+
+
 First 2 rows:
        Name  Age Grade
 0  Aravind   24     A
 1    Rahul   22     B
+
 Last row:
      Name  Age Grade
 2  Priya   23     A
+
+
 Info:
 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 3 entries, 0 to 2
+
+
 Data columns (total 3 columns):
  #   Column  Non-Null Count  Dtype
 ---  ------  --------------  -----
@@ -319,6 +333,8 @@ Data columns (total 3 columns):
 dtypes: int64(1), object(2)
 memory usage: 204.0+ bytes
 None
+
+
 Summary statistics:
             Name   Age Grade
 count         3   3.0     3
@@ -332,18 +348,23 @@ min         NaN  22.0   NaN
 50%         NaN  23.0   NaN
 75%         NaN  23.5   NaN
 max         NaN  24.0   NaN
+
+
 Name and Age columns:
        Name  Age
 0  Aravind   24
 1    Rahul   22
 2    Priya   23
+
 Students with grade A:
        Name  Age Grade
 0  Aravind   24     A
 2    Priya   23     A
+
 Added City column:
        Name  Age Grade        City
 0  Aravind   24     A    Coventry
 1    Rahul   22     B      London
 2    Priya   23     A  Manchester
+
 Average age: 23.0

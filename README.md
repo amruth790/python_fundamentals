@@ -251,3 +251,99 @@ Random 5x5 array:
 Sum of each row: [34 20 26 32 17]
 
 Max value in array: 10
+
+
+# 8
+## Topics Covered 
+Pandas Series, DataFrames, CSV loading, data exploration
+
+# Sample Outputs
+### Pandas Series ###
+Series:
+ 0    10
+1    20
+2    30
+3    40
+4    50
+dtype: int64
+Series with custom index:
+ a    10
+b    20
+c    30
+d    40
+e    50
+dtype: int64
+First element: 10
+Element with index 'c': 30
+
+
+### Pandas DataFrame ###
+DataFrame:
+       Name  Age Grade
+0  Aravind   24     A
+1    Rahul   22     B
+2    Priya   23     A
+Names column:
+ 0    Aravind
+1      Rahul
+2      Priya
+Name: Name, dtype: object
+First row:
+ Name     Aravind
+Age           24
+Grade          A
+Name: 0, dtype: object
+### Load CSV ###
+CSV loaded DataFrame:
+       Name  Age Grade
+0  Aravind   24     A
+1    Rahul   22     B
+2    Priya   23     A
+First 2 rows:
+       Name  Age Grade
+0  Aravind   24     A
+1    Rahul   22     B
+Last row:
+     Name  Age Grade
+2  Priya   23     A
+Info:
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   Name    3 non-null      object
+ 1   Age     3 non-null      int64
+ 2   Grade   3 non-null      object
+dtypes: int64(1), object(2)
+memory usage: 204.0+ bytes
+None
+Summary statistics:
+            Name   Age Grade
+count         3   3.0     3
+unique        3   NaN     2
+top     Aravind   NaN     A
+freq          1   NaN     2
+mean        NaN  23.0   NaN
+std         NaN   1.0   NaN
+min         NaN  22.0   NaN
+25%         NaN  22.5   NaN
+50%         NaN  23.0   NaN
+75%         NaN  23.5   NaN
+max         NaN  24.0   NaN
+Name and Age columns:
+       Name  Age
+0  Aravind   24
+1    Rahul   22
+2    Priya   23
+Students with grade A:
+       Name  Age Grade
+0  Aravind   24     A
+2    Priya   23     A
+Added City column:
+       Name  Age Grade        City
+0  Aravind   24     A    Coventry
+1    Rahul   22     B      London
+2    Priya   23     A  Manchester
+Average age: 23.0

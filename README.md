@@ -368,3 +368,80 @@ Added City column:
 2    Priya   23     A  Manchester
 
 Average age: 23.0
+
+
+# 9
+ # Topics covered
+ Handling missing values, duplicates, formatting, replacing invalid data
+
+ # Sample outputs
+ Original DataFrame:
+       Name   Age Grade        City
+0  Aravind  24.0     A    Coventry
+1    Rahul   NaN     B      London
+2     None  23.0     C  Manchester
+3    Priya  22.0  None      London
+4  Aravind  24.0     A    Coventry
+
+
+Missing values per column:
+ Name     1
+Age      1
+Grade    1
+City     0
+dtype: int64
+
+
+
+  df["Grade"].fillna("Unknown", inplace=True)
+DataFrame after filling missing values:
+       Name    Age    Grade        City
+0  Aravind  24.00        A    Coventry
+1    Rahul  23.25        B      London
+2  Unknown  23.00        C  Manchester
+3    Priya  22.00  Unknown      London
+4  Aravind  24.00        A    Coventry
+
+
+DataFrame after removing duplicates:
+       Name    Age    Grade        City
+0  Aravind  24.00        A    Coventry
+1    Rahul  23.25        B      London
+2  Unknown  23.00        C  Manchester
+3    Priya  22.00  Unknown      London
+
+
+
+       Name    Age    Grade        City
+0  ARAVIND  24.00        A    Coventry
+1    RAHUL  23.25        B      London
+2  UNKNOWN  23.00        C  Manchester
+3    PRIYA  22.00  Unknown      London
+
+
+
+  df_no_duplicates["Grade"].replace("Unknown", "F", inplace=True)
+
+       Name    Age Grade        City
+0  ARAVIND  24.00     A    Coventry
+1    RAHUL  23.25     B      London
+2  UNKNOWN  23.00     C  Manchester
+3    PRIYA  22.00     F      London
+
+
+  df_no_duplicates["Pass"] = df_no_duplicates["Grade"].isin(["A", "B", "C"])
+Added Pass column:
+       Name    Age Grade        City   Pass
+0  ARAVIND  24.00     A    Coventry   True
+1    RAHUL  23.25     B      London   True
+2  UNKNOWN  23.00     C  Manchester   True
+3    PRIYA  22.00     F      London  False
+
+
+
+DataFrame after index reset:
+       Name    Age Grade        City   Pass
+0  ARAVIND  24.00     A    Coventry   True
+1    RAHUL  23.25     B      London   True
+2  UNKNOWN  23.00     C  Manchester   True
+3    PRIYA  22.00     F      London  False

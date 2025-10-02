@@ -445,3 +445,70 @@ DataFrame after index reset:
 1    RAHUL  23.25     B      London   True
 2  UNKNOWN  23.00     C  Manchester   True
 3    PRIYA  22.00     F      London  False
+
+
+
+# 10
+# Topics Covered
+map, apply, groupby, aggregation
+
+# Sample Outputs
+Original DataFrame:
+       Name  Age Grade  Math  Science
+0  Aravind   24     A    95       90
+1    Rahul   22     B    85       80
+2    Priya   23     A    90       85
+3     Sita   21     C    70       65
+4     John   25     B    80       75
+
+
+After mapping Grade to numeric:
+       Name  Age Grade  Math  Science  Grade_Score
+0  Aravind   24     A    95       90            4
+1    Rahul   22     B    85       80            3
+2    Priya   23     A    90       85            4
+3     Sita   21     C    70       65            2
+4     John   25     B    80       75            3
+
+
+After calculating Total Marks:
+       Name  Age Grade  Math  Science  Grade_Score  Total_Marks
+0  Aravind   24     A    95       90            4          185
+1    Rahul   22     B    85       80            3          165
+2    Priya   23     A    90       85            4          175
+3     Sita   21     C    70       65            2          135
+4     John   25     B    80       75            3          155
+
+
+Average Total Marks by Grade:
+ Grade
+A    180.0
+B    160.0
+C    135.0
+Name: Total_Marks, dtype: float64
+
+
+Number of students in each grade:
+ Grade
+A    2
+B    2
+C    1
+Name: Name, dtype: int64
+
+
+After adding Pass/Fail column:
+       Name  Age Grade  Math  Science  Grade_Score  Total_Marks  Pass
+0  Aravind   24     A    95       90            4          185  Pass
+1    Rahul   22     B    85       80            3          165  Pass
+2    Priya   23     A    90       85            4          175  Pass
+3     Sita   21     C    70       65            2          135  Fail
+4     John   25     B    80       75            3          155  Pass
+
+
+Students sorted by Total Marks:
+       Name  Age Grade  Math  Science  Grade_Score  Total_Marks  Pass
+0  Aravind   24     A    95       90            4          185  Pass
+2    Priya   23     A    90       85            4          175  Pass
+1    Rahul   22     B    85       80            3          165  Pass
+4     John   25     B    80       75            3          155  Pass
+3     Sita   21     C    70       65            2          135  Fail

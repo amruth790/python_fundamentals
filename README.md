@@ -512,3 +512,29 @@ Students sorted by Total Marks:
 1    Rahul   22     B    85       80            3          165  Pass
 4     John   25     B    80       75            3          155  Pass
 3     Sita   21     C    70       65            2          135  Fail
+
+
+
+
+
+
+# 11
+# Topics Covered
+Matplotlib, Seaborn, plotting, customizing plots
+
+# Sample Outputs
+
+DataFrame:
+    Student  Math  Science  English
+0  Aravind    95       90       88
+1    Rahul    85       80       82
+2    Priya    90       85       85
+3     Sita    70       65       70
+4     John    80       75       78
+DataFrame with Total Score:
+    Student  Math  Science  English  Total_Score
+0  Aravind    95       90       88          273
+1    Rahul    85       80       82          247
+2    Priya    90       85       85          260
+3     Sita    70       65       70          205
+4     John    80       75       78          233

@@ -538,3 +538,48 @@ DataFrame with Total Score:
 2    Priya    90       85       85          260
 3     Sita    70       65       70          205
 4     John    80       75       78          233
+
+
+
+
+
+
+
+# 12
+# Titanic Dataset Mini Project
+
+Project Overview:
+This project analyzes the Titanic passenger dataset, a classic dataset in data science and machine learning. The main goal is to clean, transform, and visualize the dataset to explore factors affecting passenger survival.
+
+Dataset Source:
+The dataset is taken from Kaggle Titanic: Machine Learning from Disaster
+, which contains passenger information such as age, sex, class, and survival status.
+
+Why This Project:
+This project demonstrates real-world data analysis skills using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn. It covers:
+
+Data Cleaning: Handling missing values and inconsistent data
+
+Data Transformation: Creating new features (e.g., Family Size, Age Groups)
+
+Data Visualization: Generating plots to understand patterns in survival
+
+Analytical Insights: Exploring how age, sex, and family size affect survival
+
+Skills Showcased:
+
+Python Data Analysis (Pandas, NumPy)
+
+Data Cleaning and Transformation
+
+Data Visualization and Plotting
+
+GitHub Portfolio Project
+
+This project is included in my GitHub portfolio to demonstrate practical data engineering and analysis skills to recruiters and collaborators.
+
+
+
+
+
+

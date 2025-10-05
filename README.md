@@ -9,7 +9,7 @@
 
 ## Sample Outputs
 
-Addition: 14
+Addition: 13
 floor Division: 3
 Is x equal to y? False
 Is student and x>y? True
